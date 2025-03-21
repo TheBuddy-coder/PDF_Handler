@@ -50,10 +50,10 @@ def compress_pdf_ghostscript(input_pdf, output_pdf, quality="screen"):
 
 
 # Example usage
-directory_path = r"D:\Diverses\Bison\test"  # Change this to your PDF directory
+directory_path = r"D:\Bewerbungen\ThomasFejes\temp"  # Change this to your PDF directory
 output_path_4_merged_pdfs = directory_path + r'\merged_output.pdf'  # Path for the merged PDF
 merge_pdfs_in_directory(directory_path, output_path_4_merged_pdfs)
-pdf_file_path = r"D:\Bewerbungen\ThomasFejes\Arbeitszeugnisse\old\Arbeitszeugnis_Schaerer_Thomas Fejes_old.pdf"
-pdf_file_compressed_path = r"D:\Bewerbungen\ThomasFejes\Arbeitszeugnisse\test\Arbeitszeugnis_Schaerer_Thomas Fejes_compressed.pdf"
+pdf_file_path = r"D:\Bewerbungen\ThomasFejes_Profil.pdf"
+pdf_file_compressed_path = r"D:\Bewerbungen\ThomasFejes_Profil_compressed.pdf"
 # compress_pdf_ghostscript(pdf_file_path, pdf_file_compressed_path, quality="ebook")
 
